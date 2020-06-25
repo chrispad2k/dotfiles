@@ -48,13 +48,13 @@ if [[ "${terminfo[kcud1]}" != "" ]]; then
 fi
 
 # CUSTOM CD (CD & LS)
-c() {
+ccd() {
 	cd $1;
     if [ $? -eq 0 ]; then
 	    ls;
     fi
 }
-alias cd="c"
+alias cd="ccd"
 
 # CUSTOM MKDIR (MKDIR & CD)
 mkcd() {
@@ -94,6 +94,7 @@ alias rmr="rm -r"
 alias rmrf="rm -rf"
 alias cpr="cp -r"
 alias cprf="cp -rf"
+alias c="clear"
 
 # Git Aliases
 alias gs="git status"
