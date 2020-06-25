@@ -99,6 +99,7 @@ alias c="clear"
 # Git Aliases
 alias gs="git status"
 alias gp="git push"
+alias gpa="git push --all"
 alias gpu="git pull"
 alias gpua="git pull --all"
 alias gc="git commit -m"
