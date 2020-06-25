@@ -5,7 +5,7 @@ prompt pure
 
 zstyle :prompt:pure:git:stash show yes
 
-export ZSH="/Users/chris/.zsh"
+export ZSH="$HOME/.zsh"
 
 source $ZSH/custom/greet.sh
 source $ZSH/custom/keys.sh
