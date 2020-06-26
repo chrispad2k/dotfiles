@@ -97,6 +97,7 @@ alias cprf="cp -rf"
 alias c="clear"
 
 # Git Aliases
+alias g="git"
 alias gs="git status"
 alias gp="git push"
 alias gpa="git push --all"
