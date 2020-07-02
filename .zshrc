@@ -113,3 +113,4 @@ alias gst="git stash"
 alias gsp="git stash pop"
 alias grmc="git rm -r --cached . && git add . && git commit -am 'Remove ignored files'"
 alias gitdriveby='git add --all; git commit -m "$(curl -s http://whatthecommit.com/index.txt )"; git push'
+alias gi='git rm -r --cached . && git add . && git commit -m "fixed untracked files"'
